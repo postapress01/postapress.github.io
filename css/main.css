@@ -1,0 +1,220 @@
+body {
+	background: orangered;
+	margin: 0px;
+	font-family: 'geo_timesregular';
+	font-style: italic;
+	font-size: 20px;
+	color: black;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+a.class1:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.class1:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.class1:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.class1:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.class1:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.class2:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.class2:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.class2:visited {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.class2:hover {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.class2:active {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+	max-width:100%;
+}
+
+.flex-publication {
+	background: orangered;
+	width:25%;
+	padding: 40px;
+}
+.flex-image-container {
+	display: flex;
+	background: orangered;
+	justify-content: left;
+	flex-wrap: wrap;
+	float: left;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.caption-text {
+	font-style: italic;
+	font-size: 20px;
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.flex-text-container {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.text-posta {
+	color: white;
+	font-family: Arial;
+	font-style: normal;
+	letter-spacing: 1px;
+	line-height: 21px;
+	font-size: 14px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.text-posta-link {
+	color: orangered;
+	font-family: Arial;
+	font-style: normal;
+	letter-spacing: 1px;
+	line-height: 21px;
+	font-size: 14px;
+	color: white;
+	padding-bottom: 20px;
+}
+					.flex-image-container-inside {
+						display: flex;
+						background: black;
+						justify-content: left;
+						flex-wrap: wrap;
+						padding-top: 20px;
+					}
+					.flex-publication-inside {
+						width:100%;
+						padding: 20px;
+					}
+					.flex-text-container-inside {
+						display: flex;
+						justify-content: left;
+						padding-left: 40px;
+						padding-right: 40px;
+						padding-top: 0px;
+						padding-bottom: 0px;
+						flex-wrap: wrap;
+						background: black;
+					}
+					.text {
+						padding-top: 60px;
+						font-family: Arial;
+						font-style: normal;
+						letter-spacing: 1px;
+						line-height: 21px;
+						font-size: 14px;
+						color: white;
+						width: 30%;
+					}
+					.text-col-2 {
+						padding-top: 60px;
+						padding-left: 40px;
+						font-family: Arial;
+						font-style: normal;
+						letter-spacing: 1px;
+						line-height: 21px;
+						font-size: 14px;
+						color: white;
+						width: 60%;
+					}
+
+
+@font-face {
+    font-family: 'geo_timesregular';
+    src: url('geo_times.woff2') format('woff2'),
+         url('geo_times.woff') format('woff');
+}
+
+@media (max-width: 1000px) {
+.flex-publication {
+	width:40%;
+	padding: 20px;
+}
+
+@media (max-width: 600px) {
+.flex-publication {
+	width:100%;
+	padding: 30px;
+}
+
+					.flex-text-container-inside {
+						display: block;
+						justify-content: left;
+						padding: 40px;
+						flex-wrap: wrap;
+						background: black;
+					}
+
+						.text {
+						padding-top: 60px;
+						font-family: Arial;
+						font-style: normal;
+						letter-spacing: 1px;
+						line-height: 20px;
+						font-size: 14px;
+						color: white;
+						width: 100%;
+					}
+					.text-col-2 {
+						padding-left: 0px;
+						padding-top: 20px;
+						font-family: Arial;
+						font-style: normal;
+						letter-spacing: 1px;
+						line-height: 20px;
+						font-size: 14px;
+						color: white;
+						width: 100%;
+					}
+
+					.text-posta-link {
+						padding-top: 40px;
+					}
